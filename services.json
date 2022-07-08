@@ -1,0 +1,23 @@
+----------------------------685216803276150810168708
+Content-Disposition: form-data; name="file"; filename="services.json"
+Content-Type: application/json
+
+{
+  "services": [
+    {
+    "id": "dev-1", "name": "dummy", "tags": ["capi", "service-call", "group=dev", "x-forwarded-prefix", "X-B3-TraceId", "no-root-context", "https"], "address": "api3.geo.admin.ch", "port": 443
+    }, 
+    {
+    "id": "acc-1", "name": "dummy", "tags": ["capi", "service-call", "group=acc"], "address": "localhost", "port": 8080
+    }, 
+    {
+    "id": "acc-2", "name": "dummy", "tags": ["capi", "service-call", "group=acc"], "address": "localhost", "port": 8081
+    }, 
+    {
+    "id": "acc-3", "name": "dummy", "tags": ["capi", "service-call", "group=acc"], "address": "localhost", "port": 8082
+    }
+  ]
+}
+
+
+----------------------------685216803276150810168708--
